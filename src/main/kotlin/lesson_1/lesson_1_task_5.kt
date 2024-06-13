@@ -3,7 +3,6 @@ package org.example.lesson_1
 import java.time.LocalTime
 
 
-
 fun main() {
     val seconds = 6480
     val minute = seconds % 60
@@ -16,7 +15,6 @@ fun main() {
     println(hours)
     val time = "${hour}:${hours}:${minute}"
     println(time)
-
 }
 
 
