@@ -5,16 +5,16 @@ import java.time.LocalTime
 fun main() {
 
     val year = 1961;
-    var hour: Int = 9;
-    var minute: Int = 7;
+    var hour: String = "09";
+    var minute: String = "07";
 
     println(year)
     println(hour)
     println(minute)
 
-    hour = 10;
-    minute = 55;
+    hour = "10";
+    minute = "55";
 
-    println(LocalTime.of(hour,minute))
+    println("${hour}:${minute}")
 
 }
